@@ -1,7 +1,5 @@
 # star4.py
 
-print("*****")
-print("**** ")
-print("***  ")
-print("**   ")
-print("*    ")
+N = 6
+for i in range(1, N):
+    print("*"*(N-i) + " "*i)
